@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+}
+
+div {
+    background-color: red;
+    width: 200px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+
+    /* 
+        By default,
+        most browsers set the base font size to 16 pixels. Therefore,
+        to get a computed font size of 17-18 pixels,
+        you would set the font size to around 1.125rem (18/16=1.125).
+    */
+    font-size: 1.125rem;
+
+    /* center the box horizontally */
+    margin: auto auto;
+
+    border-radius: 5%;
+    border: darkred 1px solid;
+
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
+    box-shadow:
+        3px 3px 5px rgba(0, 0, 0, 0.3),
+        inset -2px -2px 5px rgba(0, 0, 0, 0.2),
+        inset 2px 2px 5px rgba(255, 255, 255, 0.815);
+}
